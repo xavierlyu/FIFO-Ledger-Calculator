@@ -1,6 +1,6 @@
 # FIFO Ledger Calculator
 
-This python calculator will aggregate all the transactions in a given ledger. It will print out the total holdings of all assets in the portfolio, the total current value of the portfolio and the total realized profit and loss of the portfolio by asset.
+This python calculator will aggregate all the transactions in a given ledger. It will print out the total holdings of all assets in the portfolio, the total current value of the portfolio and the total realized profit and loss of the portfolio by asset. It uses first-in-first-out (FIFO) algorithm to compute realized profit. 
 
 The ledger of transactions in the form of a comma-separated file has the following columns
 
